@@ -1,5 +1,12 @@
+figure();
+generateData(1,-10,100);
+figure();
+generateData(1,10,100);
+figure();
+generateData(-1,10,100);
+figure();
+generateData(-1,-10,100);
 
-generateData(-2,60,100,500);
 
 #simple error = target y - given y
 #error average = (1/n) * sum(errors)
